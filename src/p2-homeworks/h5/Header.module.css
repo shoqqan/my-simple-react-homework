@@ -1,0 +1,30 @@
+.links {
+    display: flex;
+    column-gap: 50px;
+    margin-left: -330px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+/*.links > a {*/
+/*    list-style: none;*/
+/*    text-decoration: none;*/
+/*    color: brown;*/
+/*}*/
+
+
+.links>a:hover{
+    color: #61dafb;
+}
+.active{
+    color: blue;
+}
+.hoverButton{
+    width: 30px;
+    background-color: darkgreen;
+}
+
+.links:hover{
+    transform: translateX(330px);
+
+}

@@ -1,0 +1,25 @@
+.user {
+    display: flex;
+}
+
+.avatar{
+    width: 5%;
+
+}
+.messageblock{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    flex-basis: 15%;
+    border-radius: 5%;
+    border-bottom-left-radius: 0%;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.name{
+    color: darkgreen;
+
+}
+.time{
+    align-self: flex-end;
+}
